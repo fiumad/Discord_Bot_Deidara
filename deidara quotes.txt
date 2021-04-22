@@ -1,7 +1,4 @@
-{
-	"prefix": "=",
-	"token": "ODM0NjczMzA0NzY1MjAyNDQy.YIEUFw.seLOf313KaATgzmgLiUv2vtAm-M",
-    "quotes": ["Art is an explosion!","Look at those fools. They have no appreciation for art. You have to feel art. And true art... is an EXPLOSION!",
+["Art is an explosion!","Look at those fools. They have no appreciation for art. You have to feel art. And true art... is an EXPLOSION!",
         "Fine art is the beauty of that single fleeting moment of explosion.", 
         "You think you're so cool! And those eyes make me sick!! Always judging me .. .and my art!! You have no appreciation of the beauty of my work ... and it makes me want to kill you!!",
         "Cower in awe! Recoil in despair! Cry your heart out! Because my art ... is an EXPLOSION!",
@@ -15,8 +12,4 @@
         "There's no mistake. He's the Jinchuriki. The one who bursts in and starts barking. Itachi actually described him quite accurately.",
         "You wouldn’t have gotten anywhere without the artistic contribution of my explosive clay… it’s my art that deserves the praise here, uhn!",
         "Life's only beautiful because it's so fleeting, so transient.",
-        "KATSU",
-        "COCKS!!!"],
-    "bot_channel": "#gedo-statue",
-    "voice_channel": "815048921108971546"
-}
+        "KATSU"]

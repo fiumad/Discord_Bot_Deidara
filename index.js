@@ -1,16 +1,17 @@
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
-const { prefix, token, quotes, bot_channel } = require('./config.json');
+const { prefix, token, quotes, voice_channel } = require('./config.json');
 const client = new Discord.Client();
 
 client.once('ready', () => {
 	console.log('Ready!');
 });
 
+//sends a random quote from the quotes array at 10 % chance
 function randomchance(channel){
     var chance = Math.floor(Math.random() * 10);
     var selection = Math.floor(Math.random() * 17);
-    console.log(chance);
+    //console.log(chance);
     if (chance === 5){
         channel.send(quotes[selection]);
     }
@@ -19,7 +20,7 @@ function randomchance(channel){
 
 client.on('message', message => {
     if (message.content === 'KATSU'){
-        const vc = client.channels.cache.find(channel => channel.id === "815048921108971546");
+        const vc = client.channels.cache.find(channel => channel.id === voice_channel);
         vc.join().then(connection => {
             const stream = ytdl('https://www.youtube.com/watch?v=Lh56yS92wtM', { filter: 'audioonly' }); //https://www.youtube.com/watch?v=MdO3_r6juRU
             const dispatcher = connection.play(stream);
